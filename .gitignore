@@ -1,0 +1,16 @@
+# Build output
+build/
+build-*/
+CMakeUserPresets.json
+CMakeLists.txt.user*
+compile_commands.json
+
+# Canon EDSDK is proprietary and must never be committed
+EDSDK*/
+libEDSDK.so*
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
