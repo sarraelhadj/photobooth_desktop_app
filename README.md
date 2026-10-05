@@ -5,6 +5,8 @@ USB-tethered Canon EOS camera through Canon's **EDSDK**. It's developed on an
 NVIDIA Jetson Orin Nano, but nothing in it is Jetson-specific: any Linux ARM64
 machine that EDSDK supports should work.
 
+![The photo shoot screen: live camera view with framing guides and the shutter button](docs/screenshots/live-view.png)
+
 The guest flow, in French or English:
 
 1. **Welcome**: tap anywhere to start.
@@ -16,6 +18,21 @@ The guest flow, in French or English:
    plus the number of copies.
 6. **Share**: the final print with a download QR code and options to print
    again, retake or finish.
+
+## Screenshots
+
+| | |
+|---|---|
+| ![Welcome screen](docs/screenshots/welcome.png) | ![3-2-1 countdown over the live view](docs/screenshots/countdown.png) |
+| **Welcome**: tap anywhere to start | **Countdown**: 3-2-1 over the live view |
+| ![Preview of the captured photo](docs/screenshots/review.png) | ![Filter selection with live thumbnails](docs/screenshots/filter.png) |
+| **Preview**: retake or continue | **Filter**: four looks, with live thumbnails |
+| ![Print format selection with copies](docs/screenshots/format.png) | ![Share screen with QR code and the final strip](docs/screenshots/share.png) |
+| **Format**: strips, postcard or four-up | **Share**: QR download, print again or finish |
+
+Screenshots taken from the app with a simulated camera. Sample photo by
+[Vitaly Gariev](https://unsplash.com/@silverkblack) on
+[Unsplash](https://unsplash.com/photos/SujmLgyRAxg).
 
 ## Architecture
 
